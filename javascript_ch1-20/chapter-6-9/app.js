@@ -106,49 +106,48 @@
 // var subject1 = prompt("Enter a Subject-1 Name : ");
 // var subject2 = prompt("Enter a Subject-2 Name : ");
 // var subject3 = prompt("Enter a Subject-3 Name : ");
-
-// var totalMarkSub1 = 100;
-// var totalMarkSub2 = 100;
-// var totalMarkSub3 = 100;
-
+// var totalMarks = 100;
 // var obtMarkSub1 = +prompt("Enter a Subject Marks of " + subject1);
 // var obtMarkSub2 = +prompt("Enter a Subject Marks of " + subject2);
 // var obtMarkSub3 = +prompt("Enter a Subject Marks of " + subject3);
-
-// var totalMarks = totalMarkSub1 + totalMarkSub2 + totalMarkSub3;
 // var totalObtMarks = obtMarkSub1 + obtMarkSub2 + obtMarkSub3;
-// var perSub1 = (obtMarkSub1 * 100) / totalMarkSub1;
-// var perSub2 = (obtMarkSub2 * 100) / totalMarkSub2;
-// var perSub3 = (obtMarkSub3 * 100) / totalMarkSub3;
-// var totalpercentage =(totalObtMarks * 100) / totalMarks;
+// var perSub1 = (obtMarkSub1 * 100) / totalMarks;
+// var perSub2 = (obtMarkSub2 * 100) / totalMarks;
+// var perSub3 = (obtMarkSub3 * 100) / totalMarks;
+// var totalpercentage =(totalObtMarks * 100) /(totalMarks * 3);
 // var totalpercentage = totalpercentage.toFixed(4);
-
-
-// document.getElementById("sub").innerHTML = "Subject";
-// document.getElementById("tmarks").innerHTML = "Total Marks";
-// document.getElementById("obtmarks").innerHTML = "Obtained Marks";
-// document.getElementById("percent").innerHTML =  "Percentage";
-
-
-
-// document.getElementById("sub1").innerHTML = subject1;
-// document.getElementById("totsubmarks1").innerHTML = totalMarkSub1;
-// document.getElementById("obtmarksub1").innerHTML = obtMarkSub1;
-// document.getElementById("persub1").innerHTML = perSub1 + "%";
-
-// document.getElementById("sub2").innerHTML = subject2;
-// document.getElementById("totsubmarks2").innerHTML = totalMarkSub2;
-// document.getElementById("obtmarksub2").innerHTML = obtMarkSub2;
-// document.getElementById("persub2").innerHTML = perSub2 + "%";
-
-// document.getElementById("sub3").innerHTML = subject3;
-// document.getElementById("totsubmarks3").innerHTML = totalMarkSub3;
-// document.getElementById("obtmarksub3").innerHTML = obtMarkSub3;
-// document.getElementById("persub3").innerHTML = perSub3 + "%";
-
-// document.getElementById("totalsubmarks").innerHTML = totalMarks;
-// document.getElementById("totalobtmark").innerHTML = totalObtMarks;
-// document.getElementById("totalpersub").innerHTML = totalpercentage + "%";
+// document.write("<table>");
+// document.write("<tr>");
+// document.write("<th> Subject </th> ");
+// document.write("<th>Total Marks </th> ");
+// document.write("<th>Obtained Marks </th> ");
+// document.write("<th> Percentage </th>");
+// document.write("</tr>");
+// document.write("<tr>");
+// document.write("<td>" + subject1 + "</td>");
+// document.write("<td>" + totalMarks + "</td>");
+// document.write("<td>" + obtMarkSub1 + "</td>");
+// document.write("<td>" + perSub1 + "%" + "</td>");
+// document.write("</tr>");
+// document.write("<tr>")
+// document.write("<td>" + subject2 + "</td> ");
+// document.write("<td>" + totalMarks + "</td> ");
+// document.write("<td>" + obtMarkSub2 + "</td> ");
+// document.write("<td>" + perSub2 + "%" + "</td> ");
+// document.write("</tr>");
+// document.write("<tr>");
+// document.write("<td>" + subject3 + "</td> ");
+// document.write("<td>" + totalMarks + "</td> ");
+// document.write("<td>" + obtMarkSub3 + "</td> ");
+// document.write("<td>" + perSub3 + "%" + "</td> ");
+// document.write("</tr>");
+// document.write("<tr>");
+// document.write("<td> </td> ");
+// document.write("<td>" + (totalMarks * 3) + "</td> ");
+// document.write("<td>" + totalObtMarks + "</td> ");
+// document.write("<td>" + totalpercentage + "%" + "</td> ");
+// document.write("</tr>");
+// document.write("</table>");
 
 
 

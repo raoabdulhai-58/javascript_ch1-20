@@ -310,12 +310,14 @@
 
 
 // var company = ['Apple','Samsung', 'Motorola', 'Nokia', 'Sony' , 'Haier'];
-// document.write(company[0] + " <br>");
-// document.write(company[1] + " <br>");
-// document.write(company[2] + " <br>");
-// document.write(company[3] + " <br>");
-// document.write(company[4] + " <br>");
-// document.write(company[5] + " <br>");
+// document.write("<select>")
+// document.write("<option>"+ company[0] +  " </option>");
+// document.write("<option>"+ company[1] +  " </option>");
+// document.write("<option>"+ company[2] +  " </option>");
+// document.write("<option>"+ company[3] +  " </option>");
+// document.write("<option>"+ company[4] +  " </option>");
+// document.write("<option>"+ company[5] +  " </option>");
+// document.write("</select>")
 
 
 

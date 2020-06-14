@@ -152,7 +152,8 @@
 // var totalObtmarks = eng + urdu + math;
 
 // var percentage = (totalObtmarks * 100) / totalmarks;
-//  document.getElementById("heading").innerHTML = "Mark Sheet <br> <br>";
+
+  // document.write("<h1> Mark Sheet </h1> ");
 // if (percentage >= 80) {
 //   document.write("Total marks : " + totalmarks + "<br>");
 //   document.write("Obtained marks : " + totalObtmarks + "<br>");

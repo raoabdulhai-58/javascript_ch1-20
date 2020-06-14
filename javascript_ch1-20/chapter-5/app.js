@@ -35,7 +35,15 @@
 
 
 //task 3
-
+// a. Declare a variable.
+// b. Show the value of variable in your browser like “Value
+// after variable declaration is: ??”.
+// c. Initialize the variable with some number.
+// d. Show the value of variable in your browser like “Initial
+// value: 5”.
+// e. Increment the variable.
+// f. Show the value of variable in your browser like “Value
+// after increment is: 6”.
 // g. Add 7 to the variable.
 // h. Show the value of variable in your browser like “Value
 // after addition is: 13”.
@@ -62,7 +70,7 @@
 // var a = --a;
 // document.write("Value after decrement is: " + a + "<br>" );
 
-// var a = a %3 ;
+// var a = a % 3 ;
 // document.write("The remainder is : " + a + "<br>" );
 
 
@@ -134,8 +142,7 @@
 // e. Shipping charges
 // Compute the total cost & show the receipt in your browser
 
-// document.getElementById("heading").innerHTML = "Shopping Cart";
-
+// document.write("<h1> Shopping Cart </h1>");
 // var priceItem1 = 650;
 // var priceItem2 = 100;
 // var quantityItem1 = 3;
@@ -164,8 +171,7 @@
 // var marksObtained = 800;
 // var percentage = (marksObtained * 100) / totalMarks;
 
-// document.getElementById("heading").innerHTML = "Mark sheet";
-
+// document.write("<h1> Mark sheet </h1>");
 // document.write("Total Marks is : " + totalMarks + "<br>");
 
 // document.write("Obtained Marks is : " + marksObtained + "<br>");
@@ -189,7 +195,7 @@
 
 // var totatCurrency = (usDollar * 104.80) + (saudiRitals * 28);
 
-// document.getElementById("heading").innerHTML = "Currency in PKR";
+// document.write("<h1> Currency in PKR </h1>");
 
 // document.write("Total Currency in PKR: " + totatCurrency);
 
@@ -227,7 +233,7 @@
 // var birthYear = 1995;
 // var age = currentYear - birthYear;
 
-// document.getElementById("heading").innerHTML = "Age Calculator";
+// document.write("<h1> Age Calculator </h1>");
 
 // document.write("Current year is : " + currentYear + "<br>");
 // document.write("Brith year is : " + birthYear + "<br>");
@@ -249,8 +255,7 @@
 //  var circumference = 2 * 3.142 * circleRadius;
 //  var area = (3.142 * (circleRadius * 2));
 
-
-//  document.getElementById("heading").innerHTML = "The Geometrizer";
+//  document.write("<h1> The Geometrizer </h1>");
 
 //  document.write("Radius of Circle is : " + circleRadius + "<br>");
 //  document.write("The circumference is : " + circumference  + "<br>");
@@ -278,8 +283,7 @@
 
 // var total = ((maximumAge - currentAge) * 3);
 
-// document.getElementById("heading").innerHTML = "The Lifetime Supply Calculator";
-
+// document.write("<h1> The Lifetime Supply Calculator </h1>");
 // document.write("Favorite snake is :" + favoriteSnake + "<br>");
 // document.write("Current age :" + currentAge + "<br>");
 // document.write("Maximum age is :" + maximumAge + "<br>");

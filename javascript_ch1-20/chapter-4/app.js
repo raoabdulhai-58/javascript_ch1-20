@@ -24,8 +24,8 @@
 //  var first name ;
 //  var last name ;
 //  var 10x ;
-//  var alter;
-//  var  let;
+//  var _x;
+//  var  /y;
  
 
 // task 3
@@ -47,7 +47,7 @@
 //     y =  "Variable names are case sensitive";
 //     z =  "Variable names should not be JS keyword";
 
-// document.getElementById("heading").innerHTML = "Rules for naming JS variables";
+// document.write("<h1> Rules for naming JS variables </h1>" + "<br>");
 // document.write(w + x + y + z);
 
 

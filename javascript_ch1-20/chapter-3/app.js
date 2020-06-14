@@ -51,7 +51,7 @@
 
 
 //  var visitor_name = "Rao";
-//  var products_title = "T_shirt(s)";
+//  var products_title = "T_shirt";
 //  var Quantity = 5;
 
-//  document.write(visitor_name + ' ordered '  +  Quantity + ' '  +  products_title  + ' on xyz clothing store ');
+//  document.write("<b>" + visitor_name + "</b>"+ ' ordered '   + Quantity  + '  '  + "<b>" +  products_title + "</b>" + "(s) " + ' on xyz clothing store ');
